@@ -1,0 +1,198 @@
+.navbar{
+    padding: 0 100px;
+    height: 80px;
+    background-color: white;
+}
+.menu li a{
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.active{
+    color: #009dff !important;
+}
+.menu .btn{
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    background: #009dff;
+    color: white;
+}
+.menu .nav-link:hover{
+    color: #009dff;
+    transition: all 0.5s ease;
+}
+.menu .btn:hover{
+    border: 1px solid #009dff;
+    background: white;
+    color: #009dff;
+}
+
+
+
+.header{
+    background-image: url(../images/Home_bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 80%;
+    background-size: 100% 50%;
+}
+.header .h3{
+    background: #E2EAED;
+    width: 600px;
+    border-radius: 50px;
+}
+.header .h3 img{
+    background: orange;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+.header .h1{
+    font-family: sans-serif;
+    color: #242F51;
+    font-weight: 910;
+    font-size: 60px;
+}
+.paragraff{
+    color: gray;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.header .menu .link{
+    color: #009dff;
+    font-size: 1.4rem;
+}
+.header .menu .link:hover{
+    color: #126396
+}
+.header .imag img{
+    height: 650px;
+    margin-top: -100px;
+    animation-name: rasm;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes rasm{
+    to{
+        margin-top: -120px;
+    }
+    to{
+        margin-top: -90px;
+    }
+}
+@media screen and (min-width: 1336px){
+    .container-fluid{
+        width: 1336px;
+    }
+}
+
+.section1 .owl-carousel div img{
+    width: 150px;
+}
+
+
+.section2 .textlar .menu img{
+    height: 70px;
+}
+.section2 .textlar .menu{
+    margin-bottom: 30px;
+}
+
+
+.section3 .border-lef::before{
+    content: "";
+    width: 2px;
+    height: 150px;
+    background: gray;
+    position: absolute;
+    left: -40%;
+    top: -40%;
+}
+
+.section3 .itemlar .menu img{
+    border-radius: 50%;
+    background: rgb(255, 220, 226);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.section5 .menu{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.owl-carousel2 img{
+    height: 400px;
+}
+
+.section8 .cards{
+    width: 350px;
+}
+
+.section9{
+    background-image: url(../images/meet_client.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.section9 .section9-text{
+    position: absolute;
+    right: 100px;
+    width: 40%;
+}
+.section9 .section9-text h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #242F51;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.section9 .section9-text p{
+    color: #242F51;
+}
+.bi-star-fill{
+    color: yellow;
+    font-size: 1.4rem;
+}
+
+
+.card-body{
+    background: #f8f9fa !important;
+}
+.card .btn{
+    font-size: 2rem;
+}
+.card{
+    margin: 20px !important;
+}
+
+footer{
+    background: #09142e;
+    height: 300px;
+}
+footer img{
+    margin: 20px 0;
+}
+footer .menu .nav-link{
+    color: white;
+    margin: 10px 0;
+}
+footer div .bi{
+    font-size: 2rem;
+    margin: 20px 10px;
+}
+footer div .bi:hover{
+    color: #fff;
+}
+footer p{
+    margin: 20px;
+}
+footer p:hover{
+    color: #fff;
+}
